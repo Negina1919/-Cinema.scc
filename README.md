@@ -1,0 +1,2 @@
+# -Cinema.scc
+MY Cinema

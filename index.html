@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negina 🎥🍿</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Negina's Theater! 🎬</h1>
+  </header>
+
+  <section class="video-section">
+    <video id="trailer" controls>
+      <source src="trailer.mp4.mp4" type="video/mp4">
+    </video>
+    <div class="buttons">
+      <button onclick="document.getElementById('trailer').currentTime = 0; document.getElementById('trailer').play();">Play Again</button>
+      <button onclick="alert('Thank you for rating the movie!')">Rate Movie</button>
+    </div>
+  </section>
+
+  <footer>
+    <marquee behavior="scroll" direction="left">Enjoy your movie experience with Negina! ✨</marquee>
+  </footer>
+</body>
+</html>
